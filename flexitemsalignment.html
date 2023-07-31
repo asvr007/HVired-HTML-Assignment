@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Items Alignment</title>
+    <style>
+        .flex-container{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: space-evenly;
+        }
+        .col1{
+            height: 500px;
+            margin:10px;
+            flex-grow:5;
+            background-color: aqua;
+            padding: 10px;
+        }
+        .col2{
+            height: 500px;
+            margin:10px;
+            flex-grow:5;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        .col3{
+            margin:10px;
+            height: 500px;
+            flex-grow:5;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        div h1{
+            text-align: center;
+        } 
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;background-color: cadetblue;">Flex Items Alignment</h2>
+    <div class="flex-container">
+        <div class="col1"><h1>column1</h1></div>
+        <div class="col2"><h1>column2</h1></div>
+        <div class="col3"><h1>column3</h1></div>
+    </div>
+</body>
+</html>
